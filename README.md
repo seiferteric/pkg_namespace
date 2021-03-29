@@ -1,6 +1,6 @@
 # Linux Package Namespacing
 
-It can sometimes be difficult to know what binaries/commands are installed by a given package, especially if the binary names are completely different than the package name itself. This can be a stumbling block for newer linux/unix users I feel since the discoverability of commands via tab complete, or even just looking in the *bin directories is lacking any context of where each command comes from.
+It can sometimes be difficult to know what binaries/commands are installed by a given package, especially if the binary names are completely different than the package name itself. This can be a stumbling block for newer linux/unix users I feel since the discoverability of commands via tab complete, or even just looking in the *bin directories is lacking any context of where each command comes from. There are of course ways to figure out what commands are installed, but in order to do that you have to know those commands... Which you might imagine is a bit of a problem.
 
 This script attempts to solve this by creating a new bin directory that you can add to your PATH. In the bin directory is symlinks to every command installed via a package on your system, but prefixed with the package in this format: 
 
