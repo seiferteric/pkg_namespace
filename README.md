@@ -1,4 +1,4 @@
-#Linux Package Namespacing
+# Linux Package Namespacing
 
 It can sometimes be difficult to know what binaries/commands are installed by a given package, especially if the binary names are completely different than the package name itself. This can be a stumbling block for newer linux/unix users I feel since the discoverability of commands via tab complete, or even just looking in the *bin directories is lacking any context of where each command comes from.
 
