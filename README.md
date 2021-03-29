@@ -14,7 +14,7 @@ In this case that actual package name is `imagemagick-6.q16`
 
 ## Install
 
-git clone xxx
+git clone https://github.com/seiferteric/pkg_namespace.git
 
 ## Usage
 
