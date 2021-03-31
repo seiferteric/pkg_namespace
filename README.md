@@ -12,6 +12,23 @@ So for example, imagemagick convert command in bash tab complete looks like this
 
 In this case that actual package name is `imagemagick-6.q16`
 
+Another example with systemd showing via tab completion all the commands it installs. Even though many systemd commands start with `systemd-`, as you can see many of them don't.
+
+```
+$ systemd#
+systemd#bootctl                         systemd#systemd-ask-password            systemd#systemd-path
+systemd#busctl                          systemd#systemd-cat                     systemd#systemd-resolve
+systemd#hostnamectl                     systemd#systemd-cgls                    systemd#systemd-run
+systemd#journalctl                      systemd#systemd-cgtop                   systemd#systemd-socket-activate
+systemd#kernel-install                  systemd#systemd-delta                   systemd#systemd-stdio-bridge
+systemd#localectl                       systemd#systemd-detect-virt             systemd#systemd-sysusers
+systemd#loginctl                        systemd#systemd-escape                  systemd#systemd-tmpfiles
+systemd#networkctl                      systemd#systemd-inhibit                 systemd#systemd-tty-ask-password-agent
+systemd#systemctl                       systemd#systemd-machine-id-setup        systemd#systemd-umount
+systemd#systemd                         systemd#systemd-mount                   systemd#timedatectl
+systemd#systemd-analyze                 systemd#systemd-notify                  
+```
+
 ## Install
 
 git clone https://github.com/seiferteric/pkg_namespace.git
